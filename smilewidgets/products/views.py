@@ -9,7 +9,6 @@ from .models import ProductPrice, GiftCard, Product
 class PriceCalculatorView(APIView):
  
 	def get(self, request, *args, **kwargs):
-		import pdb;pdb.set_trace()
 		product_code = request.GET.get('productCode')
 		fordate = request.GET.get('date')
 		fordate = datetime.datetime.strptime(fordate, "%Y-%m-%d").date()
