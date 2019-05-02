@@ -41,3 +41,7 @@ The Smile Widget Company currently sells two types of smile widgets: a Big Widge
 ### Additional Information
 * Please use Django Rest Framework or a Python web framework of your choice to create the endpoint.
 * Just as a general guideline, we've designed this exercise to take less than 4 hours.
+
+## Access the Service using Url
+http://127.0.0.1:8000/api/get-price/?productCode=big_widget&date=2018-11-24&giftCardCode=10OFF
+
